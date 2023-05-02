@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto&display=swap');
+body {
+    background-image: url('https://i.pinimg.com/736x/e8/63/be/e863be10388e1829b8c2bd85bf81f8df.jpg');
+    background-repeat: none;
+    color: white;
+    text-decoration: solid;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+  }
+h1, h2, p {
+    text-align: center;
+  }
+  section {
+    width: 85%;
+    background-color: rgba(25, 31, 52, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 600px;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    font-size: 18px;
+  }
+  input[type=checkbox]:checked {
+    color: red;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #fff;
+    border: 1px solid #0a0a23;
+    color: black;
+  }
+  textarea {
+    height: 100px;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    height: 2em;
+    color:white;
+    font-size: 1.1rem;
+    background-color: #76BA1B;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  a {
+    color: #dfdfe2;
+  }  
